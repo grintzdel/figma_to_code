@@ -4,6 +4,9 @@
 /* VARIABLES */
 :root {
 
+    /* Font variable */
+    --font-primary: "Epilogue", sans-serif;
+
     /* text color variable */
     --color-heavy-metal: #2D2D2D;
     --color-white: #ffffff;
@@ -25,7 +28,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Epilogue", sans-serif;
+    font-family: var(--font-primary);
     text-decoration: none;
     outline: none;
 }
