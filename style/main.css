@@ -1,14 +1,14 @@
-/* Font */
+/* FONT */
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* Variables */
+/* VARIABLES */
 :root {
     --text-color: #2D2D2D;
     --bg-color: #ffffff;
     --border-color-black: rgba(0, 0, 0, 0.2);
 }
 
-/* Reset properties */
+/* RESET */
 * {
     margin: 0;
     padding: 0;
@@ -18,30 +18,32 @@
     outline: none;
 }
 
-/* Main styles */
-a {
-    color: var(--text-color);
-    font-size: 1.063rem;
-    font-weight: 400;
-}
-
-.description {
+/* DESCRIPTIONS STYLES */
+.description__17 {
     color: var(--text-color);
     font-size: 1.063rem;
     font-weight: 400;
     line-height: 27px;
 }
 
-.description__xl {
+.description__20 {
     color: var(--text-color);
     font-size: 1.25rem;
     font-weight: 600;
     line-height: 30px;
 }
 
-.title__xxl {
+/* TITLES STYLES */
+.title__80 {
     color: var(--text-color);
     font-size: 5rem;
     font-weight: 600;
     line-height: 90px;
+}
+
+.title__27 {
+    color: var(--text-color);
+    font-size: 1.688rem;
+    font-weight: 600;
+    line-height: 42px;
 }

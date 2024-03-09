@@ -1,4 +1,4 @@
-/* Hero section */
+/* HERO SECTION */
 .hero {
     align-items: center;
     align-self: stretch;
@@ -29,7 +29,7 @@
     position: relative;
 }
 
-/* Logos section */
+/* LOGOS SECTION */
 .logos {
     align-items: center;
     display: flex;
@@ -56,3 +56,48 @@
     position: relative;
     width: 1078px;
 }
+
+/* SKILLS SECTION */
+.skills {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    gap: 10px;
+    height: 688px;
+    justify-content: center;
+    padding: 180px 140px;
+    position: relative;
+}
+
+.skills__wrapper {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    gap: 125px;
+    height: 328px;
+    position: relative;
+    width: 999.7px;
+}
+
+.skills__skill {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    height: 328px;
+    pointer-events: auto;
+    position: relative;
+    transition: all 0.2s ease;
+    width: 249.9px;
+    text-align: center;
+}
+
+.skills__skill img {
+    height: 130px;
+    margin-bottom: 56px;
+}
+
+.skills__skill p {
+    margin-top: 19px;
+}
+

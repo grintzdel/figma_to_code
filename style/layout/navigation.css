@@ -1,3 +1,4 @@
+/* NAVIGATION */
 .navigation {
     display: flex;
     justify-content: space-between;
@@ -5,15 +6,20 @@
     padding: 1.625rem 3.125rem;
 }
 
+/* Logo */
 .logo {
     font-size: 1.25rem;
     font-weight: 600;
 }
 
+/* Links */
 .navigation__links {
     display: flex;
 }
 
 .navigation__links__link {
+    color: var(--text-color);
+    font-size: 1.063rem;
+    font-weight: 400;
     margin-left: 3.125rem;
 }
