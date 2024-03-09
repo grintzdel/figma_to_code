@@ -41,6 +41,13 @@
     line-height: 90px;
 }
 
+.title__32 {
+    color: var(--text-color);
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 42px;
+}
+
 .title__27 {
     color: var(--text-color);
     font-size: 1.688rem;
