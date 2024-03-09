@@ -4,8 +4,11 @@
 /* VARIABLES */
 :root {
     --text-color: #2D2D2D;
-    --bg-color: #ffffff;
+    --background-color: #ffffff;
+    --background-color-quarter-pearl-lustra: #FFFCF5;
     --border-color-black: rgba(0, 0, 0, 0.2);
+    --border-color-grandis: #FFD285;
+    --border-color-iron: #D8D8D8
 }
 
 /* RESET */
@@ -34,11 +37,11 @@
 }
 
 /* TITLES STYLES */
-.title__80 {
+.title__27 {
     color: var(--text-color);
-    font-size: 5rem;
+    font-size: 1.688rem;
     font-weight: 600;
-    line-height: 90px;
+    line-height: 42px;
 }
 
 .title__32 {
@@ -48,9 +51,9 @@
     line-height: 42px;
 }
 
-.title__27 {
+.title__80 {
     color: var(--text-color);
-    font-size: 1.688rem;
+    font-size: 5rem;
     font-weight: 600;
-    line-height: 42px;
+    line-height: 90px;
 }
