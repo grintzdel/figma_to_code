@@ -1,0 +1,169 @@
+/* FOOTER */
+.footer {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: auto;
+    padding: 0px 100px 70px;
+    position: relative;
+}
+
+.footer__wrapper {
+    align-items: center;
+    border-bottom-style: none;
+    border-color: var(--border-color-black);
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: solid;
+    border-top-width: 2px;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    height: auto;
+    padding: 70px 0px 0px;
+    position: relative;
+    width: fit-content;
+}
+
+.footer__content {
+    align-items: flex-start;
+    display: flex;
+    gap: 190px;
+    height: auto;
+    position: relative;
+    width: fit-content;
+}
+
+/* FOOTER LEFT SIDE */
+.footer__contact {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    height: auto;
+    position: relative;
+    width: 360px;
+}
+
+.footer__contact__text {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    height: auto;
+    position: relative;
+}
+
+.footer__contact__icons {
+    height: 36px;
+    min-width: 232px;
+    position: relative;
+}
+
+/* icons */
+.footer__contact__icons a img {
+    cursor: pointer;
+    height: 36px;
+    position: absolute;
+    width: 36px;
+}
+
+#icons__discord {
+    left: calc(50% - 116px);
+    top: calc(50% - 18px);
+}
+
+#icons__facebook {
+    left: calc(50% - 67px);
+    top: calc(50.00% - 18px);
+}
+
+#icons__dribble {
+
+    left: calc(50% - 18px);
+    top: calc(50% - 18px);
+}
+
+#icons__instagram {
+    left: calc(50% + 31px);
+    top: calc(50% - 18px);
+}
+
+#icons__behance {
+    left: calc(50% + 80px);
+    top: calc(50% - 18px);
+}
+
+/* FOOTER RIGHT SIDE */
+.footer__fields {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    height: 529px;
+    position: relative;
+    width: 530px;
+}
+
+.footer__textarea {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: auto;
+    position: relative;
+    width: fit-content;
+}
+
+.footer__inputs {
+    align-items: flex-start;
+    background-color: var(--background-color-concrete);
+    display: flex;
+    gap: 10px;
+    height: auto;
+    padding: 21px 30px;
+    position: relative;
+    width: 530px;
+}
+
+.footer__input {
+    border: 0;
+    flex: 1;
+    background-color: transparent;
+    height: 27px;
+    min-width: 470px;
+    padding: 0;
+    position: relative;
+    resize: none;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.footer__textarea {
+    background-color: transparent;
+    border: 0;
+    flex: 1;
+    height: 189px;
+    min-width: 470px;
+    padding: 0;
+    position: relative;
+    resize: none;
+    text-align: left;
+}
+
+.footer__button {
+    align-items: flex-start;
+    background-color: var(--color-heavy-metal);
+    display: flex;
+    gap: 10px;
+    height: auto;
+    padding: 25px 82px;
+    position: relative;
+    width: fit-content;
+}
+
+.footer__button a {
+    color: var(--color-white);
+}

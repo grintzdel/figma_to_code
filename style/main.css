@@ -3,12 +3,21 @@
 
 /* VARIABLES */
 :root {
-    --text-color: #2D2D2D;
-    --background-color: #ffffff;
+
+    /* text color variable */
+    --color-heavy-metal: #2D2D2D;
+    --color-white: #ffffff;
+
+    /* backgrounds colors variables */
+    --background-color-white: #ffffff;
     --background-color-quarter-pearl-lustra: #FFFCF5;
+    --background-color-concrete: #F3F3F3;
+
+
+    /* borders colors variables */
     --border-color-black: rgba(0, 0, 0, 0.2);
     --border-color-grandis: #FFD285;
-    --border-color-iron: #D8D8D8
+    --border-color-iron: #D8D8D8;
 }
 
 /* RESET */
@@ -23,14 +32,14 @@
 
 /* DESCRIPTIONS STYLES */
 .description__17 {
-    color: var(--text-color);
+    color: var(--color-heavy-metal);
     font-size: 1.063rem;
     font-weight: 400;
     line-height: 27px;
 }
 
 .description__20 {
-    color: var(--text-color);
+    color: var(--color-heavy-metal);
     font-size: 1.25rem;
     font-weight: 600;
     line-height: 30px;
@@ -38,21 +47,21 @@
 
 /* TITLES STYLES */
 .title__27 {
-    color: var(--text-color);
+    color: var(--color-heavy-metal);
     font-size: 1.688rem;
     font-weight: 600;
     line-height: 42px;
 }
 
 .title__32 {
-    color: var(--text-color);
+    color: var(--color-heavy-metal);
     font-size: 2rem;
     font-weight: 600;
     line-height: 42px;
 }
 
 .title__80 {
-    color: var(--text-color);
+    color: var(--color-heavy-metal);
     font-size: 5rem;
     font-weight: 600;
     line-height: 90px;
