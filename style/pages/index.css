@@ -38,7 +38,7 @@
     width: 100%;
     justify-content: center;
     overflow: hidden;
-    padding: 0px 66px;
+    padding: 0 66px;
     position: relative;
 }
 
@@ -52,7 +52,7 @@
     border-top-width: 2px;
     display: flex;
     justify-content: space-between;
-    padding: 60px 0px;
+    padding: 60px 0;
     position: relative;
     width: 1078px;
 }
