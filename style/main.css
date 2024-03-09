@@ -5,6 +5,7 @@
 :root {
     --text-color: #2D2D2D;
     --bg-color: #ffffff;
+    --border-color-black: rgba(0, 0, 0, 0.2);
 }
 
 /* Reset properties */
