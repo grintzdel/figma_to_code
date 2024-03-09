@@ -94,6 +94,10 @@
     text-align: center;
 }
 
+.skills__skill:hover {
+    transform: translate(0, -5px);
+}
+
 .skills__skill img {
     height: 130px;
     margin-bottom: 56px;
@@ -146,6 +150,10 @@
     position: relative;
     transition: all 0.2s ease;
     width: fit-content;
+}
+
+.latest-work__card:hover {
+    transform: scale(0.9);
 }
 
 .latest-work__card__media {
