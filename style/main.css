@@ -1,0 +1,25 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Variables */
+:root {
+    --text-color: #2D2D2D;
+    --bg-color: #ffffff;
+}
+
+/* Reset properties */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Epilogue", sans-serif;
+    text-decoration: none;
+    outline: none;
+}
+
+/* Main styles */
+a {
+    color: var(--text-color);
+    font-size: 1.063rem;
+    font-weight: 400;
+}
