@@ -23,3 +23,24 @@ a {
     font-size: 1.063rem;
     font-weight: 400;
 }
+
+.description {
+    color: var(--text-color);
+    font-size: 1.063rem;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.description__xl {
+    color: var(--text-color);
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.title__xxl {
+    color: var(--text-color);
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 90px;
+}
