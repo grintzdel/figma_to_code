@@ -53,12 +53,8 @@
         text-align: center;
     }
 
-    .hero__texts p:first-child {
+    .hero__texts p {
         width: 315px;
-        text-align: center;
-    }
-
-    .hero__texts p:last-child {
         text-align: center;
     }
 
@@ -97,6 +93,47 @@
     padding: 60px 0;
     position: relative;
     width: 1078px;
+}
+
+/* LOGOS SECTION RESPONSIVE */
+@media screen and (max-width: 1279px) {
+    .logos {
+        height: 354.82781982421875px;
+    }
+
+    .logos__wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 100px);
+        grid-template-rows: repeat(3, 100px);
+        justify-items: center;
+        align-items: center;
+        width: 242px;
+    }
+
+    .logo-behance {
+        order: 2;
+        transform: translateX(18px) translateY(-37px);
+    }
+
+    .logo-google {
+        order: 1;
+        transform: translateX(10px) translateY(-37px);
+    }
+
+    .logo-apple {
+        order: 4;
+        transform: translateX(30px) translateY(-37px);
+    }
+
+    .logo-dribble {
+        order: 3;
+        transform: translateX(20px) translateY(-37px);
+    }
+
+    .logo-awwwards {
+        order: 5;
+        transform: translateX(75px) translateY(-37px);
+    }
 }
 
 
@@ -146,14 +183,31 @@
     margin-top: 19px;
 }
 
+/* SKILLS SECTION RESPONSIVE */
+@media screen and (max-width: 1279px) {
+    .skills {
+        gap: 10px;
+        height: 1535px;
+        justify-content: center;
+        padding: 150px 62px;
+    }
+
+    .skills__wrapper {
+        flex-direction: column;
+        height: 1334px;
+        width: fit-content;
+    }
+}
+
 
 /* LATEST WORK SECTION */
 .latest-work {
     align-items: center;
+    align-self: stretch;
     display: flex;
     flex-direction: column;
     gap: 60px;
-    height: 1016px;
+    height: auto;
     padding: 20px 100px;
     position: relative;
 }
@@ -163,9 +217,9 @@
     display: flex;
     flex-direction: column;
     gap: 60px;
-    height: 874px;
+    height: auto;
     position: relative;
-    width: 100%;
+    width: fit-content;
 }
 
 .latest-work__row {
@@ -206,6 +260,27 @@
     height: auto;
     position: relative;
     width: 315px;
+}
+
+/* LATEST WORK RESPONSIVE */
+@media screen and (max-width: 1279px) {
+    .latest-work {
+        height: 2924px;
+    }
+
+    .latest-work__wrapper {
+        height: 2742px;
+    }
+
+    .latest-work__row {
+        display: none;
+    }
+
+    .latest-work__row--new {
+        gap: 60px;
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 
@@ -322,4 +397,22 @@
 
 .author__3 {
     background-image: url("../../public/assets/img/clients/client_3.jpg");
+}
+
+/* CLIENTS SECTION RESPONSIVE */
+@media screen and (max-width: 1279px) {
+    .clients {
+        align-self: stretch;
+        justify-content: center;
+        padding: 60px 30px 90px;
+    }
+
+    .clients__wrapper {
+        gap: 40px;
+    }
+
+    .clients__cards {
+        flex-direction: column;
+        gap: 60px;
+    }
 }

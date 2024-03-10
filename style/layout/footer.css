@@ -11,10 +11,7 @@
 
 .footer__wrapper {
     align-items: center;
-    border-bottom-style: none;
     border-color: var(--border-color-black);
-    border-left-style: none;
-    border-right-style: none;
     border-top-style: solid;
     border-top-width: 2px;
     display: flex;
@@ -98,7 +95,7 @@
     gap: 40px;
     height: 529px;
     position: relative;
-    width: 530px;
+    width: fit-content;
 }
 
 .footer__textarea {
@@ -125,7 +122,7 @@
     flex: 1;
     background-color: transparent;
     height: 27px;
-    min-width: 470px;
+    min-width: 315px;
     padding: 0;
     position: relative;
     resize: none;
@@ -138,7 +135,7 @@
     border: 0;
     flex: 1;
     height: 189px;
-    min-width: 470px;
+    min-width: 315px;
     padding: 0;
     position: relative;
     resize: none;
@@ -157,4 +154,50 @@
 
 .footer__button a {
     color: var(--color-white);
+}
+
+/* FOOTER RESPONSIVE */
+@media screen and (max-width: 1279px) {
+    .footer {
+        align-self: stretch;
+        padding: 0px 30px 70px;
+        position: relative;
+    }
+
+    .footer__content {
+        flex-direction: column;
+        gap: 80px;
+        width: 315px;
+    }
+
+    .footer__contact__text {
+        width: 315px;
+    }
+
+    #footer__contact__text__title {
+        width: 180px;
+    }
+
+    .footer__fields {
+        width: 315px;
+    }
+
+    .footer__textarea {
+        flex-direction: column;
+        height: auto;
+        min-width: 0;
+    }
+
+    .footer__inputs {
+        width: 315px;
+    }
+
+    .footer__inputs:last-child {
+        height: 230px;
+        min-width: 0;
+    }
+
+    .footer__inputs input {
+        min-width: 0;
+    }
 }
