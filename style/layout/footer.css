@@ -3,32 +3,19 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    height: auto;
-    padding: 0px 100px 70px;
-    position: relative;
+    padding: 0 100px 70px;
 }
 
 .footer__wrapper {
-    align-items: center;
     border-color: var(--border-color-black);
     border-top-style: solid;
     border-top-width: 2px;
-    display: flex;
-    flex-direction: column;
-    gap: 70px;
-    height: auto;
-    padding: 70px 0px 0px;
-    position: relative;
-    width: fit-content;
+    padding: 70px 0 0;
 }
 
 .footer__content {
     display: flex;
     gap: 190px;
-    height: auto;
-    position: relative;
-    width: fit-content;
 }
 
 /* FOOTER LEFT SIDE */
@@ -36,8 +23,6 @@
     display: flex;
     flex-direction: column;
     gap: 60px;
-    height: auto;
-    position: relative;
     width: 360px;
 }
 
@@ -45,8 +30,6 @@
     display: flex;
     flex-direction: column;
     gap: 40px;
-    height: auto;
-    position: relative;
 }
 
 .footer__contact__icons {
@@ -70,7 +53,7 @@
 
 #icons__facebook {
     left: calc(50% - 67px);
-    top: calc(50.00% - 18px);
+    top: calc(50% - 18px);
 }
 
 #icons__dribble {
@@ -92,28 +75,25 @@
 .footer__fields {
     display: flex;
     flex-direction: column;
-    gap: 40px;
     height: 529px;
-    position: relative;
-    width: fit-content;
 }
 
 .footer__textarea {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    height: auto;
-    position: relative;
-    width: fit-content;
+    background-color: transparent;
+    border: 0;
+    flex: 1;
+    height: 189px;
+    padding: 0;
+    resize: none;
 }
 
 .footer__inputs {
     background-color: var(--background-color-concrete);
     display: flex;
-    gap: 10px;
-    height: auto;
     padding: 21px 30px;
-    position: relative;
     width: 530px;
 }
 
@@ -121,34 +101,12 @@
     border: 0;
     flex: 1;
     background-color: transparent;
-    height: 27px;
-    min-width: 315px;
     padding: 0;
-    position: relative;
-    resize: none;
-    text-align: left;
-    white-space: nowrap;
-}
-
-.footer__textarea {
-    background-color: transparent;
-    border: 0;
-    flex: 1;
-    height: 189px;
-    min-width: 315px;
-    padding: 0;
-    position: relative;
-    resize: none;
-    text-align: left;
 }
 
 .footer__button {
     background-color: var(--color-heavy-metal);
-    display: flex;
-    gap: 10px;
-    height: auto;
     padding: 25px 82px;
-    position: relative;
     width: fit-content;
 }
 
