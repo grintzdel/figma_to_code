@@ -118,7 +118,7 @@
 @media screen and (max-width: 1279px) {
     .footer {
         align-self: stretch;
-        padding: 0px 30px 70px;
+        padding: 0 30px 70px;
         position: relative;
     }
 
