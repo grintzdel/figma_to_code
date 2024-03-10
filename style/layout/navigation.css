@@ -4,6 +4,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 1.625rem 3.125rem;
+    min-width: 375px;
 }
 
 /* Logo */
@@ -18,8 +19,30 @@
 }
 
 .navigation__links__link {
-    color: var(--text-color);
+    color: var(--color-heavy-metal);
     font-size: 1.063rem;
     font-weight: 400;
     margin-left: 3.125rem;
 }
+
+/* NAVIGATION RESPONSIVE */
+@media screen and (min-width: 1280px) {
+    .navigation__mobile__menu {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1279px) {
+    .navigation {
+        height: 80px;
+    }
+
+    .navigation__links {
+        display: none;
+    }
+
+    .navigation__mobile__menu {
+        display: block;
+    }
+}
+

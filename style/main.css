@@ -69,3 +69,10 @@
     font-weight: 600;
     line-height: 90px;
 }
+
+@media screen and (max-width: 1279px) {
+    .title__80 {
+        font-size: 4.063rem;
+        line-height: 66.63px;
+    }
+}

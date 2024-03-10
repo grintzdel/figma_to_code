@@ -4,7 +4,7 @@
     align-self: stretch;
     display: flex;
     flex-direction: column;
-    height: 624px;
+    height: auto;
     justify-content: center;
     padding: 6.25rem;
     position: relative;
@@ -27,6 +27,47 @@
     gap: 2.5rem;
     height: 317px;
     position: relative;
+    width: fit-content;
+}
+
+/* HERO SECTION RESPONSIVE */
+@media screen and (max-width: 1279px) {
+    .hero {
+        padding: 50px 30px 60px;
+    }
+
+    .hero__wrapper {
+        flex-direction: column;
+        gap: 60px;
+        width: 315px;
+    }
+
+    .hero__texts {
+        gap: 20px;
+        height: auto;
+        position: relative;
+        width: 315px;
+    }
+
+    .hero__texts h1 {
+        text-align: center;
+    }
+
+    .hero__texts p:first-child {
+        width: 315px;
+        text-align: center;
+    }
+
+    .hero__texts p:last-child {
+        text-align: center;
+    }
+
+    .hero__media video {
+        height: 270px;
+        width: 315px;
+        overflow: hidden;
+        position: relative;
+    }
 }
 
 
@@ -35,7 +76,7 @@
     align-items: center;
     display: flex;
     gap: 10px;
-    height: 166.83px;
+    height: auto;
     width: 100%;
     justify-content: center;
     overflow: hidden;
@@ -62,7 +103,6 @@
 /* SKILLS SECTION */
 .skills {
     align-items: center;
-    align-self: stretch;
     display: flex;
     gap: 10px;
     height: 688px;
@@ -72,7 +112,6 @@
 }
 
 .skills__wrapper {
-    align-items: flex-start;
     display: flex;
     flex-direction: row;
     gap: 125px;
@@ -111,7 +150,6 @@
 /* LATEST WORK SECTION */
 .latest-work {
     align-items: center;
-    align-self: stretch;
     display: flex;
     flex-direction: column;
     gap: 60px;
@@ -131,7 +169,6 @@
 }
 
 .latest-work__row {
-    align-items: flex-start;
     display: flex;
     gap: 67.5px;
     height: auto;
@@ -140,7 +177,6 @@
 }
 
 .latest-work__card {
-    align-items: flex-start;
     cursor: pointer;
     display: flex;
     flex-direction: column;
@@ -164,7 +200,6 @@
 }
 
 .latest-work__card__texts {
-    align-items: flex-start;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -177,7 +212,6 @@
 /* CLIENTS SECTION */
 .clients {
     align-items: center;
-    align-self: stretch;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -197,7 +231,6 @@
 }
 
 .clients__cards {
-    align-items: flex-start;
     display: flex;
     gap: 67.5px;
     height: auto;
@@ -206,7 +239,6 @@
 }
 
 .clients__card {
-    align-items: flex-start;
     display: flex;
     gap: 67.5px;
     height: auto;
@@ -215,7 +247,6 @@
 }
 
 .clients__card__wrapper {
-    align-items: flex-start;
     background-color: var(--background-color-quarter-pearl-lustra);
     border: 1.5px solid;
     border-color: var(--border-color-grandis);
@@ -228,8 +259,6 @@
 }
 
 .clients__card__content {
-    align-items: flex-start;
-    align-self: stretch;
     display: flex;
     flex-direction: column;
     gap: 80px;
@@ -243,7 +272,6 @@
 }
 
 .clients__card__rate {
-    align-items: flex-start;
     display: flex;
     gap: 20px;
     height: auto;
@@ -265,7 +293,6 @@
 }
 
 .clients__card__author__rate {
-    align-items: flex-start;
     display: flex;
     flex-direction: column;
     height: auto;
@@ -274,7 +301,6 @@
 }
 
 .clients__card__author__rate__stars {
-    align-items: flex-start;
     display: flex;
     gap: 5px;
     height: auto;
