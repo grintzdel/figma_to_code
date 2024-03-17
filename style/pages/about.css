@@ -1,0 +1,76 @@
+/* HEADER SECTION */
+.header__about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 120px 320px;
+    height: 537.52px;
+    background-color: var(--background-color-wepeep);
+}
+
+.header__about__card {
+    display: flex;
+    gap: 70px;
+}
+
+.header__about__card__img {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 195px;
+}
+
+.header__about__card__media {
+    width: 195px;
+    height: auto;
+    border: 1.5px solid var(--color-heavy-metal);
+}
+
+.header__about__card__texts {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.header__about__bio {
+    width: 515px;
+    height: 135px;
+    transform: translateY(81.26px);
+}
+
+
+/* BODY SECTION */
+.body__about {
+    display: flex;
+    justify-content: center;
+    padding: 120px 320px;
+}
+
+.body__about__wrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    height: auto;
+    justify-content: center;
+    position: relative;
+    width: 880px;
+}
+
+.body__about__fancy-text {
+    width: 880px;
+}
+
+.body__about__fancy-text-green {
+    align-items: flex-start;
+    align-self: stretch;
+    background-color: var(--background-color-gossamer);
+    display: flex;
+    gap: 10px;
+    height: auto;
+    mix-blend-mode: normal;
+    padding: 5px 0;
+    position: relative;
+}
+.body__about p {
+    margin-top: -1px;
+}

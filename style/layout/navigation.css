@@ -12,6 +12,7 @@
 .logo {
     font-size: 1.25rem;
     font-weight: 600;
+    color: var(--color-heavy-metal);
 }
 
 /* Links */
