@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     padding: 120px 320px;
-    height: 537.52px;
+    height: auto;
     background-color: var(--background-color-wepeep);
 }
 
@@ -73,4 +73,35 @@
 }
 .body__about p {
     margin-top: -1px;
+}
+
+/* ABOUT RESPONSIVE */
+
+@media screen and (max-width: 1279px) {
+    .header__about {
+        padding: 120px 30px;
+    }
+
+    .header__about__card {
+        flex-direction: column;
+        gap: 78px;
+    }
+
+    .header__about__bio {
+        width: 315px;
+        height: 189px;
+        transform: none;
+    }
+
+    .body__about {
+        padding: 120px 30px;
+    }
+
+    .body__about__wrapper {
+        width: 315px;
+    }
+
+    .body__about__fancy-text {
+        width: 100%;
+    }
 }

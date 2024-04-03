@@ -1,6 +1,6 @@
 // Fonction permettant de changer le contenu HTML du titre de la hero section suivant la largeur de l'écran.
 function updateH1Text() {
-    // Déclaration des variables
+
     let h1Element = document.querySelector('.hero__texts h1');
     let pElement = document.querySelector('.hero__texts p:last-child')
 
